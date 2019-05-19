@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kang&#39;s Blog</title>
+  
+  <subtitle>The first Step,That was awesome!</subtitle>
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="https://kang-zone.com/blog/"/>
+  <updated>2019-05-15T14:56:32.615Z</updated>
+  <id>https://kang-zone.com/blog/</id>
+  
+  <author>
+    <name>Kang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown学习笔记(二)</title>
+    <link href="https://kang-zone.com/blog/2019/05/15/005Markdown2/"/>
+    <id>https://kang-zone.com/blog/2019/05/15/005Markdown2/</id>
+    <published>2019-05-15T12:44:53.000Z</published>
+    <updated>2019-05-15T14:56:32.615Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="欢迎来到"><a href="#欢迎来到" class="headerlink" title="欢迎来到"></a>欢迎来到</h2><p>话说上个大学怎么就课这么多呢，简直是活的不如汪汪汪小可爱呀，真的是，学的多，学不会也就算了，还得每天学着自己不愿学的东西，感觉自己在遭罪，果然男怕入错行，女怕嫁错郎呀！！！！！<br>菜鸟教程：<a href="https://www.runoob.com/markdown/md-tutorial.html" target="_blank" rel="noopener">Markdown教程</a></p><hr><h3 id="Markdown段落"><a href="#Markdown段落" class="headerlink" title="Markdown段落"></a>Markdown段落</h3><blockquote><p>没有特殊格式，直接编写就好，换行是用两个以上空格加回车<br>或者直接使用空行来换行</p></blockquote><blockquote><p>段落1段落1段落1段落1段落1段落1段落1段落1段落1段落1段&gt; 落1段落1段落1段落1段落1段落1段落1段落1段落1段落1段落&gt; 1段落1段落1段落1段落1段落1段落1    </p></blockquote><blockquote><p>段落2段落2段落2段落2段落2段落2段落2段落2段落2段落2段&gt; 落2段落2段落2段落2段落2段落2段落2段落2段落2段落2段落&gt; 2段落2段落2段落2段落2段落2段落2</p></blockquote><hr><h3 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h3><ul><li><code>*斜体文本*</code></li><li><code>_斜体文本_</code></li><li><code>**粗体文本**</code></li><li><code>__粗体文本__</code></li><li><code>***粗斜体文本***</code></li><li><code>___粗斜体文本___</code></li></ul><p>效果如下：</p><blockquote><p><em>斜体文本</em><br><em>斜体文本</em><br><strong>粗体文本</strong><br><strong>粗体文本</strong><br><strong><em>粗斜体文本</em></strong><br><strong><em>粗斜体文本</em></strong></p></blockquote><hr><h3 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h3><ul><li><code>***</code></li><li><code>* * *</code></li><li><code>*****</code></li><li><code>- - -</code></li><li><code>---------</code></li></ul><p>效果如下：</p><blockquote><hr><hr><hr><hr><hr></blockquote><hr><h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><ul><li><code>~~RUNOOB~~</code></li></ul><p>效果如下：</p><blockquote><p><del>RUNOOOB</del></p></blockquote><hr><h3 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h3><ul><li>下划线可以通过HTML的<code>&lt;u&gt;</code>标签来实现：<code>&lt;u&gt;&lt;/u&gt;</code></li></ul><p>效果如下：</p><blockquote><p><u>下划线文本</u></p></blockquote><hr><h3 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h3><ul><li>脚注是对文本的补充说明，格式如下：<code>[^ 要注明的文本 ]</code></li></ul><p>效果如下：</p><blockquote><p>创建脚注的格式类似这样  [^RUNOOB]<br>[^RUNOOB]：菜鸟教程 – 学的不仅是技术，更是梦想！！！</p></blockquote><ul><li>好像有点问题</li></ul><hr><h3 id="Markdown列表"><a href="#Markdown列表" class="headerlink" title="Markdown列表"></a>Markdown列表</h3><ul><li><strong>无序列表使用 <code>*</code>号，加号 <code>+</code> ,或是减号 <code>-</code>作为列表标记</strong></li></ul><blockquote><p><code>* 第一项</code><br><code>* 第二项</code><br><code>* 第三项</code></p><p><code>+ 第一项</code><br><code>+ 第二项</code><br><code>+ 第三项</code></p><p><code>- 第一项</code><br><code>- 第二项</code><br><code>- 第三项</code></p></blockquote><p>效果如下：</p><ul><li>第一项</li><li>第二项</li><li>第三项</li></ul><ul><li>第一项</li><li>第二项</li><li>第三项</li></ul><ul><li>第一项</li><li>第二项</li><li>第三项</li></ul><ul><li><strong>有序列表使用数字并加上 <code>.</code> 号来表示，如：</strong></li></ul><blockquote><p><code>1.第一项</code><br><code>2.第二项</code><br><code>3.第三项</code></p></blockquote><p>效果如下：</p><ol><li>第一项</li><li>第二项</li><li>第三项</li></ol><ul><li><strong>列表嵌套</strong></li></ul><p>列表嵌套只需要在子列表的选项添加四个空格即可：</p><blockquote><ol><li>第一项：<pre><code>-  第一项嵌套的第一个元素-  第一项嵌套的第二个元素</code></pre></li><li>第二项：<pre><code>-  第二项嵌套的第一个元素-  第二项嵌套的第二个元素</code></pre></li></ol></blockquote><p>效果如下：</p><ol><li>第一项：<ul><li>第一项嵌套的第一个元素</li><li>第一项嵌套的第二个元素</li></ul></li><li>第二项：<ul><li>第二项嵌套的第一个元素</li><li>第二项嵌套的第二个元素</li></ul></li></ol><hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;欢迎来到&quot;&gt;&lt;a href=&quot;#欢迎来到&quot; class=&quot;headerlink&quot; title=&quot;欢迎来到&quot;&gt;&lt;/a&gt;欢迎来到&lt;/h2&gt;&lt;p&gt;话说上个大学怎么就课这么多呢，简直是活的不如汪汪汪小可爱呀，真的是，学的多，学不会也就算了，还得每天学着自己不愿学的东西，感
+      
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="https://kang-zone.com/blog/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown学习笔记(一)</title>
+    <link href="https://kang-zone.com/blog/2019/05/07/004Markdown1/"/>
+    <id>https://kang-zone.com/blog/2019/05/07/004Markdown1/</id>
+    <published>2019-05-07T10:59:39.000Z</published>
+    <updated>2019-05-07T15:14:24.679Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="欢迎来到"><a href="#欢迎来到" class="headerlink" title="欢迎来到"></a>欢迎来到</h2><p>一个成功的，成功的，，，，成功的，算了吧，菜鸟的我还是好好学一下<a href="http://www.markdown.cn/" target="_blank" rel="noopener">Markdown</a>吧，争取在Markdown这个系列的博客写完之后能不看教程，独立地把博客写的好看一点。（我是看着<a href="https://www.runoob.com/" target="_blank" rel="noopener">菜鸟教程</a>学习的最基础的markdown语法）。其实这算是一个学习笔记了吧。</p><hr><h1 id="Markdown特点"><a href="#Markdown特点" class="headerlink" title="Markdown特点"></a>Markdown特点</h1><blockquote><p>1.Markdown是一种轻量级的标记语言，它允许人们使用易读易写的纯文本格式编写文档。</p><p>2.Markdown语言在2004由约翰·格鲁伯（John Gruber）创建。</p><p>3.Markdown编写的文档可以导出HTML、Word、图像、PDF、Epub等多种格式的文档。</p><p>4.Markdown编写的文档后缀为<code>.md</code>,<code>.markdown</code>。</p></blockquote><hr><h1 id="Markdown编辑器"><a href="#Markdown编辑器" class="headerlink" title="Markdown编辑器"></a>Markdown编辑器</h1><blockquote><ul><li>Typora（支持MacOS、Windows、Linux平台，且包含多种主题，支持到处HTML、PDF、Word、图片等多种类型）</li><li>马克飞象</li><li>小书匠编辑器</li><li>Mahua</li><li>VS Code(本人在用)</li></ul></blockquote><hr><h1 id="Markdown标题"><a href="#Markdown标题" class="headerlink" title="Markdown标题"></a>Markdown标题</h1><h3 id="1-使用-和-标记一级和二级标题"><a href="#1-使用-和-标记一级和二级标题" class="headerlink" title="1.使用 = 和 - 标记一级和二级标题"></a>1.使用 = 和 - 标记一级和二级标题</h3><blockquote><p><code>我展示的是一级标题</code><br><code>===============</code><br><code>我展示的是二级标题</code><br><code>-----------------</code></p></blockquote><p>实际效果</p><blockquote><h1 id="我展示的是一级标题"><a href="#我展示的是一级标题" class="headerlink" title="我展示的是一级标题"></a>我展示的是一级标题</h1><h2 id="我展示的是二级标题"><a href="#我展示的是二级标题" class="headerlink" title="我展示的是二级标题"></a>我展示的是二级标题</h2></blockquote><h3 id="2-使用-号标记"><a href="#2-使用-号标记" class="headerlink" title="2.使用 # 号标记"></a>2.使用 # 号标记</h3><p>使用 <code>#</code> 号可以表示1-6级标题，一级标题对应一个 <code>#</code> 号，二级标题对应俩个 <code>#</code> 号，以此类推。</p><blockquote><p><code># 一级标题</code></p><p><code>## 二级标题</code></p><p><code>### 三级标题</code></p><p><code>#### 四级标题</code></p><p><code>##### 五级标题</code></p><p><code>###### 六级标题</code></p></blockquote><p>实际效果</p><blockquote><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;欢迎来到&quot;&gt;&lt;a href=&quot;#欢迎来到&quot; class=&quot;headerlink&quot; title=&quot;欢迎来到&quot;&gt;&lt;/a&gt;欢迎来到&lt;/h2&gt;&lt;p&gt;一个成功的，成功的，，，，成功的，算了吧，菜鸟的我还是好好学一下&lt;a href=&quot;http://www.markdown.c
+      
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="https://kang-zone.com/blog/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vscode常用快捷键及插件</title>
+    <link href="https://kang-zone.com/blog/2019/04/29/003vscode/"/>
+    <id>https://kang-zone.com/blog/2019/04/29/003vscode/</id>
+    <published>2019-04-29T10:24:42.000Z</published>
+    <updated>2019-05-03T05:30:29.606Z</updated>
+    
+    <content type="html"><![CDATA[<p>哈哈，弄好博客也有好多天了，今天（五一假期的第三天）终于有空来了写一篇文章了，初次写一篇正式的博客文章，多少感觉有点手忙脚乱，不知从何下手，后来想想，既然无从下手，就干脆当成引导自己学习的技术的日记吧，最近一直在频繁的使用<a href="https://code.visualstudio.com" target="_blank" rel="noopener">VS Code</a>，索性就直接来记录下自己在vscode上安装的一些插件，顺带安利一下在用的主题,文章最后写一些常用的快捷键，可能你有些也是自己在学习使用中，毕竟自己也不可能一次性记住很多快捷键，同时也便于自己查找快捷键时翻看。<br>好了，下面进入正文部分。-_-</p><h2 id="VS-Code插件（前端为主）"><a href="#VS-Code插件（前端为主）" class="headerlink" title="VS Code插件（前端为主）"></a>VS Code插件（前端为主）</h2><p>1.Atom One Dark Theme:一个深色的主题插件。代码高亮明显<br>2.Beautify:一个用来美化代码的插件<br>3.Chinese(Simplified)Language Pack for Visual Studio Code:简体中文语言插件(虽然可能推荐这个插件有点罪恶，且无助于英语能力的提升)但是对于刚开始接触VS Code的人来说，可能还是需要将语言汉化一下（不安装该插件只改设置汉化不会成功的）。<br>4.Color Highlight:颜色高亮显示<br>5.Debugger for Chrome:故名思义<br>6.Gitlens：使用git管理的插件<br>7.Hackers Haze Theme：黑客主题<br>8.HTML CSS Support：HTML和CSS一些语法的支持插件<br>9.Image preview：图片预览<br>10.Material Theme：一个风格比较靓丽的主题插件</p><h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><p>1.单行注释：                 ctrl+/<br>2.取消单行注释：             ctrl+u<br>3.多行注释：                 alt+shift+A<br>4.向上或向下复制当前行：      shift+alt+up/down<br>5.删除当前行：               shift+ctrl+k<br>6.代码格式化：               shift+alt+f<br>7.新建一个窗口：             ctrl+shift+n<br>8.显示比例缩放：             ctrl+(+/-)<br>9.跳转到代码指定行：         ctrl+g<br>10.选中代码：               shift+鼠标左键<br>11.回到顶部：               ctrl+home<br>12.回到底部：               ctrl+end</p><h2 id="最后放张日常使用的效果图"><a href="#最后放张日常使用的效果图" class="headerlink" title="最后放张日常使用的效果图"></a>最后放张日常使用的效果图</h2><p><img src="public/img/vscode.JPG" alt="效果图"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;哈哈，弄好博客也有好多天了，今天（五一假期的第三天）终于有空来了写一篇文章了，初次写一篇正式的博客文章，多少感觉有点手忙脚乱，不知从何下手，后来想想，既然无从下手，就干脆当成引导自己学习的技术的日记吧，最近一直在频繁的使用&lt;a href=&quot;https://code.visu
+      
+    
+    </summary>
+    
+    
+      <category term="VS Code" scheme="https://kang-zone.com/blog/tags/VS-Code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>石破</title>
+    <link href="https://kang-zone.com/blog/2019/04/25/002first/"/>
+    <id>https://kang-zone.com/blog/2019/04/25/002first/</id>
+    <published>2019-04-25T14:43:42.000Z</published>
+    <updated>2019-05-03T05:30:26.001Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="用了好久"><a href="#用了好久" class="headerlink" title="用了好久"></a>用了好久</h2><p>可能是由于我一个非计算机专业的转行刚开始学习前端方面的东西（一个新手的自我安慰），所以导致这个个人博客是我了解了很多东西后才建立起来的，并且中途经历了很多挫折，最终才出现了现在（2019.4.25）的这个博客。<br>但，或许，菜是原罪！</p><h2 id="万事开头难"><a href="#万事开头难" class="headerlink" title="万事开头难"></a>万事开头难</h2><p>在上大学后在各个方面受到了很大的冲击，也开始思考自己的大学应当怎么度过，作为一名机械工程专业的学生，面对着大学各种不能接受的大学教育模式，我内心对于机械的热爱几乎讲降到了冰点，同时大学的平时生活也让我产生了更多的思考。对于一个不太喜欢社交的人来说，现有呃各种社交工具无疑都是一种无效的工具，而且我个人感觉现有的各种社交工具都是给人一种被动社交的感觉。所以一直在寻找一种平台，，，，，直到找到了“博客”这种东西，所以从大二第一学期开始踏上了学习前端的道路（大概就是机械生转行的意思），同时也开始了自己博客的搭建，由于自己完全零基础开始，所以一路走来挺难的，希望后面有空了能够写一个教程出来（至少像廖雪峰前辈那种的）。</p><h2 id="小想法"><a href="#小想法" class="headerlink" title="小想法"></a>小想法</h2><p>可能一个小白自学转行大概是比较梦幻的，但还是努力吧，因为我上了大概一年半的大学后才发现我更感兴趣的是计算机方面的专业，可能当初太过天真的以为自己很喜欢机械吧，还是太菜了hhhhh，直到大二快要结束了才明白了自己真正想要的是什么，有时候想一想放弃一些东西去追寻自己想要的还是很难的，有时候放弃一个东西不止是需要勇气这么简单，越长大越身不由己，年轻人，想到就干，趁还来的及吧!!!!!!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;用了好久&quot;&gt;&lt;a href=&quot;#用了好久&quot; class=&quot;headerlink&quot; title=&quot;用了好久&quot;&gt;&lt;/a&gt;用了好久&lt;/h2&gt;&lt;p&gt;可能是由于我一个非计算机专业的转行刚开始学习前端方面的东西（一个新手的自我安慰），所以导致这个个人博客是我了解了很多东西后才
+      
+    
+    </summary>
+    
+    
+      <category term="随想" scheme="https://kang-zone.com/blog/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://kang-zone.com/blog/2019/04/24/001hello-world/"/>
+    <id>https://kang-zone.com/blog/2019/04/24/001hello-world/</id>
+    <published>2019-04-24T04:34:38.683Z</published>
+    <updated>2019-05-02T16:22:12.585Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
