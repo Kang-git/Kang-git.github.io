@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://kang-zone.com/blog/"/>
-  <updated>2019-05-21T13:57:36.587Z</updated>
+  <updated>2019-05-24T10:35:02.198Z</updated>
   <id>https://kang-zone.com/blog/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>007Markdown3.md</title>
+    <link href="https://kang-zone.com/blog/2019/05/24/007Markdown3/"/>
+    <id>https://kang-zone.com/blog/2019/05/24/007Markdown3/</id>
+    <published>2019-05-24T05:21:46.000Z</published>
+    <updated>2019-05-24T10:35:02.198Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="https://kang-zone.com/blog/tags/Markdown/"/>
+    
+      <category term="文本编辑" scheme="https://kang-zone.com/blog/tags/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91/"/>
+    
+  </entry>
   
   <entry>
     <title>将Win10系统更新为1903版本</title>
@@ -44,7 +62,7 @@
     <link href="https://kang-zone.com/blog/2019/05/15/005Markdown2/"/>
     <id>https://kang-zone.com/blog/2019/05/15/005Markdown2/</id>
     <published>2019-05-15T12:44:53.000Z</published>
-    <updated>2019-05-15T14:56:32.615Z</updated>
+    <updated>2019-05-24T10:34:43.210Z</updated>
     
     <content type="html"><![CDATA[<h2 id="欢迎来到"><a href="#欢迎来到" class="headerlink" title="欢迎来到"></a>欢迎来到</h2><p>话说上个大学怎么就课这么多呢，简直是活的不如汪汪汪小可爱呀，真的是，学的多，学不会也就算了，还得每天学着自己不愿学的东西，感觉自己在遭罪，果然男怕入错行，女怕嫁错郎呀！！！！！<br>菜鸟教程：<a href="https://www.runoob.com/markdown/md-tutorial.html" target="_blank" rel="noopener">Markdown教程</a></p><hr><h3 id="Markdown段落"><a href="#Markdown段落" class="headerlink" title="Markdown段落"></a>Markdown段落</h3><blockquote><p>没有特殊格式，直接编写就好，换行是用两个以上空格加回车<br>或者直接使用空行来换行</p></blockquote><blockquote><p>段落1段落1段落1段落1段落1段落1段落1段落1段落1段落1段&gt; 落1段落1段落1段落1段落1段落1段落1段落1段落1段落1段落&gt; 1段落1段落1段落1段落1段落1段落1    </p></blockquote><blockquote><p>段落2段落2段落2段落2段落2段落2段落2段落2段落2段落2段&gt; 落2段落2段落2段落2段落2段落2段落2段落2段落2段落2段落&gt; 2段落2段落2段落2段落2段落2段落2</p></blockquote><hr><h3 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h3><ul><li><code>*斜体文本*</code></li><li><code>_斜体文本_</code></li><li><code>**粗体文本**</code></li><li><code>__粗体文本__</code></li><li><code>***粗斜体文本***</code></li><li><code>___粗斜体文本___</code></li></ul><p>效果如下：</p><blockquote><p><em>斜体文本</em><br><em>斜体文本</em><br><strong>粗体文本</strong><br><strong>粗体文本</strong><br><strong><em>粗斜体文本</em></strong><br><strong><em>粗斜体文本</em></strong></p></blockquote><hr><h3 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h3><ul><li><code>***</code></li><li><code>* * *</code></li><li><code>*****</code></li><li><code>- - -</code></li><li><code>---------</code></li></ul><p>效果如下：</p><blockquote><hr><hr><hr><hr><hr></blockquote><hr><h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><ul><li><code>~~RUNOOB~~</code></li></ul><p>效果如下：</p><blockquote><p><del>RUNOOOB</del></p></blockquote><hr><h3 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h3><ul><li>下划线可以通过HTML的<code>&lt;u&gt;</code>标签来实现：<code>&lt;u&gt;&lt;/u&gt;</code></li></ul><p>效果如下：</p><blockquote><p><u>下划线文本</u></p></blockquote><hr><h3 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h3><ul><li>脚注是对文本的补充说明，格式如下：<code>[^ 要注明的文本 ]</code></li></ul><p>效果如下：</p><blockquote><p>创建脚注的格式类似这样  [^RUNOOB]<br>[^RUNOOB]：菜鸟教程 – 学的不仅是技术，更是梦想！！！</p></blockquote><ul><li>好像有点问题</li></ul><hr><h3 id="Markdown列表"><a href="#Markdown列表" class="headerlink" title="Markdown列表"></a>Markdown列表</h3><ul><li><strong>无序列表使用 <code>*</code>号，加号 <code>+</code> ,或是减号 <code>-</code>作为列表标记</strong></li></ul><blockquote><p><code>* 第一项</code><br><code>* 第二项</code><br><code>* 第三项</code></p><p><code>+ 第一项</code><br><code>+ 第二项</code><br><code>+ 第三项</code></p><p><code>- 第一项</code><br><code>- 第二项</code><br><code>- 第三项</code></p></blockquote><p>效果如下：</p><ul><li>第一项</li><li>第二项</li><li>第三项</li></ul><ul><li>第一项</li><li>第二项</li><li>第三项</li></ul><ul><li>第一项</li><li>第二项</li><li>第三项</li></ul><ul><li><strong>有序列表使用数字并加上 <code>.</code> 号来表示，如：</strong></li></ul><blockquote><p><code>1.第一项</code><br><code>2.第二项</code><br><code>3.第三项</code></p></blockquote><p>效果如下：</p><ol><li>第一项</li><li>第二项</li><li>第三项</li></ol><ul><li><strong>列表嵌套</strong></li></ul><p>列表嵌套只需要在子列表的选项添加四个空格即可：</p><blockquote><ol><li>第一项：<pre><code>-  第一项嵌套的第一个元素-  第一项嵌套的第二个元素</code></pre></li><li>第二项：<pre><code>-  第二项嵌套的第一个元素-  第二项嵌套的第二个元素</code></pre></li></ol></blockquote><p>效果如下：</p><ol><li>第一项：<ul><li>第一项嵌套的第一个元素</li><li>第一项嵌套的第二个元素</li></ul></li><li>第二项：<ul><li>第二项嵌套的第一个元素</li><li>第二项嵌套的第二个元素</li></ul></li></ol><hr>]]></content>
     
@@ -60,6 +78,8 @@
     
       <category term="Markdown" scheme="https://kang-zone.com/blog/tags/Markdown/"/>
     
+      <category term="文本编辑" scheme="https://kang-zone.com/blog/tags/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91/"/>
+    
   </entry>
   
   <entry>
@@ -67,7 +87,7 @@
     <link href="https://kang-zone.com/blog/2019/05/07/004Markdown1/"/>
     <id>https://kang-zone.com/blog/2019/05/07/004Markdown1/</id>
     <published>2019-05-07T10:59:39.000Z</published>
-    <updated>2019-05-07T15:14:24.679Z</updated>
+    <updated>2019-05-24T10:34:07.021Z</updated>
     
     <content type="html"><![CDATA[<h2 id="欢迎来到"><a href="#欢迎来到" class="headerlink" title="欢迎来到"></a>欢迎来到</h2><p>一个成功的，成功的，，，，成功的，算了吧，菜鸟的我还是好好学一下<a href="http://www.markdown.cn/" target="_blank" rel="noopener">Markdown</a>吧，争取在Markdown这个系列的博客写完之后能不看教程，独立地把博客写的好看一点。（我是看着<a href="https://www.runoob.com/" target="_blank" rel="noopener">菜鸟教程</a>学习的最基础的markdown语法）。其实这算是一个学习笔记了吧。</p><hr><h1 id="Markdown特点"><a href="#Markdown特点" class="headerlink" title="Markdown特点"></a>Markdown特点</h1><blockquote><p>1.Markdown是一种轻量级的标记语言，它允许人们使用易读易写的纯文本格式编写文档。</p><p>2.Markdown语言在2004由约翰·格鲁伯（John Gruber）创建。</p><p>3.Markdown编写的文档可以导出HTML、Word、图像、PDF、Epub等多种格式的文档。</p><p>4.Markdown编写的文档后缀为<code>.md</code>,<code>.markdown</code>。</p></blockquote><hr><h1 id="Markdown编辑器"><a href="#Markdown编辑器" class="headerlink" title="Markdown编辑器"></a>Markdown编辑器</h1><blockquote><ul><li>Typora（支持MacOS、Windows、Linux平台，且包含多种主题，支持到处HTML、PDF、Word、图片等多种类型）</li><li>马克飞象</li><li>小书匠编辑器</li><li>Mahua</li><li>VS Code(本人在用)</li></ul></blockquote><hr><h1 id="Markdown标题"><a href="#Markdown标题" class="headerlink" title="Markdown标题"></a>Markdown标题</h1><h3 id="1-使用-和-标记一级和二级标题"><a href="#1-使用-和-标记一级和二级标题" class="headerlink" title="1.使用 = 和 - 标记一级和二级标题"></a>1.使用 = 和 - 标记一级和二级标题</h3><blockquote><p><code>我展示的是一级标题</code><br><code>===============</code><br><code>我展示的是二级标题</code><br><code>-----------------</code></p></blockquote><p>实际效果</p><blockquote><h1 id="我展示的是一级标题"><a href="#我展示的是一级标题" class="headerlink" title="我展示的是一级标题"></a>我展示的是一级标题</h1><h2 id="我展示的是二级标题"><a href="#我展示的是二级标题" class="headerlink" title="我展示的是二级标题"></a>我展示的是二级标题</h2></blockquote><h3 id="2-使用-号标记"><a href="#2-使用-号标记" class="headerlink" title="2.使用 # 号标记"></a>2.使用 # 号标记</h3><p>使用 <code>#</code> 号可以表示1-6级标题，一级标题对应一个 <code>#</code> 号，二级标题对应俩个 <code>#</code> 号，以此类推。</p><blockquote><p><code># 一级标题</code></p><p><code>## 二级标题</code></p><p><code>### 三级标题</code></p><p><code>#### 四级标题</code></p><p><code>##### 五级标题</code></p><p><code>###### 六级标题</code></p></blockquote><p>实际效果</p><blockquote><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></blockquote>]]></content>
     
@@ -82,6 +102,8 @@
     
     
       <category term="Markdown" scheme="https://kang-zone.com/blog/tags/Markdown/"/>
+    
+      <category term="文本编辑" scheme="https://kang-zone.com/blog/tags/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91/"/>
     
   </entry>
   
