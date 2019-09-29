@@ -9,7 +9,17 @@
 <hr>
 <h2 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h2><p>安装完插件之后就要在配置文件 <code>settings.json</code> 中建立和Arduino IDE的关系了，在vscode中打开设置，然后搜索<code>Arduino</code></p>
 <p><img src="/../images/0038.jpg" alt="settings.json"></p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">+ </span>Command Path可以省略不填</span><br><span class="line"><span class="bullet">+ </span>Default Baud Rate是指使用插件时的默认波特率，常用</span><br><span class="line"><span class="bullet">+ </span>9600</span><br><span class="line"><span class="bullet">+ </span>勾选 Enable USBDetection</span><br><span class="line"><span class="bullet">+ </span>log level选默认的info</span><br><span class="line"><span class="bullet">+ </span>Path项填写ArduinoIDE的安装路径</span><br><span class="line"><span class="bullet">+ </span>勾选S极品H而爱的人Provider</span><br></pre></td></tr></table></figure>
+<blockquote>
+<ul>
+<li>Command Path可以省略不填</li>
+<li>Default Baud Rate是指使用插件时的默认波特率，常用</li>
+<li>9600</li>
+<li>勾选 Enable USBDetection</li>
+<li>log level选默认的info</li>
+<li>Path项填写ArduinoIDE的安装路径</li>
+<li>勾选S极品H而爱的人Provider</li>
+</ul>
+</blockquote>
 <hr>
 <h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>然后打开一个项目，在项目文件夹里面创建一个  <code>.ino</code>  文件,直接拿两个硬件开始搞一个测试项目，输入信号来源于三通道PS摇杆，输出信号用串口监视器和舵机来体现。<br>然后以  <code>Ctrl+C</code>  <code>Ctrl+V</code>的姿势手撸了一串代码。上个图看看，图片右上角有着令人舒服的<code>Upload（烧录）</code>按钮和<code>Verify（编译）</code>按钮</p>
 <p><img src="/../images/0033.jpg" alt="mianban"></p>
