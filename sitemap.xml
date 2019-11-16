@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://kang-zone.com/blog/2019/07/18/010Arduino/</loc>
+    <loc>https://kang-zone.com/blog/2019/11/16/012auto-mount/</loc>
     
-    <lastmod>2019-09-29T03:51:38.000Z</lastmod>
+    <lastmod>2019-11-16T13:50:05.122Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://kang-zone.com/blog/about/index.html</loc>
+    
+    <lastmod>2019-10-20T11:12:12.743Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://kang-zone.com/blog/2019/08/03/011minqin/</loc>
     
-    <lastmod>2019-08-30T14:44:51.577Z</lastmod>
+    <lastmod>2019-09-29T04:31:28.530Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://kang-zone.com/blog/2019/07/18/010Arduino/</loc>
+    
+    <lastmod>2019-09-29T03:51:38.000Z</lastmod>
     
   </url>
   
@@ -75,13 +89,6 @@
     <loc>https://kang-zone.com/blog/2019/04/29/003vscode/</loc>
     
     <lastmod>2019-05-19T15:01:00.908Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://kang-zone.com/blog/about/index.html</loc>
-    
-    <lastmod>2019-05-06T11:17:42.846Z</lastmod>
     
   </url>
   
